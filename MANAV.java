@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class ManavKASA{
+public class MANAV {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double armut = 2,14;
-        double elma = 3,67;
-        double domates = 1,11;
-        double muz = 0,94;
-        double patlican = 5,00;
+        double Armut = 2.14;
+        double Elma = 3.67;
+        double Domates = 1.11;
+        double Muz = 0.94;
+        double Patlican = 5.00;
 
         System.out.println("Armut kaç kilo ? :  ");
         double armutKilo = sc.nextDouble();
@@ -21,6 +21,7 @@ public class ManavKASA{
         System.out.println("Patlican kaç kilo ? :  ");
         double patlicanKilo = sc.nextDouble();
 
-        double toplam = (armut * armutKilo) + (elma * elmaKilo) + (domates * domatesKilo) + (muz * muzKilo) + (patlican * patlicanKilo );
+        double toplam = (Armut * armutKilo) + (Elma * elmaKilo) + (Domates * domatesKilo) + (Muz * muzKilo) + (Patlican * patlicanKilo );
+        System.out.println("Toplam ödemeniz gereken tutar:  " +  toplam + "tl");
     }
 }
