@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 
 public class Taksimetre {
@@ -8,7 +10,7 @@ public class Taksimetre {
         double price = 10 + (km * 2.20);
         if (price < 20) price = 20;
         //if (price < 20 ) price = 20
-        System.out.println("Taksimetre: " + price);
+        System.out.println("week1.Taksimetre: " + price);
 
     }
 }
