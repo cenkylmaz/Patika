@@ -25,5 +25,6 @@ public class MinMavSayı {
             }
         } System.out.println("Girilen sayılar arasında en küçük sayı :  " + min);
         System.out.println("Girilen sayılar arasında en büyük sayı :  " + max);
+
     }
 }
